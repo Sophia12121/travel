@@ -1,0 +1,43 @@
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.hero-section {
+    height: 90vh;
+    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), 
+                url('https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=1200');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.btn-primary {
+    background-color: #ff4757;
+    border-color: #ff4757;
+}
+
+.btn-primary:hover {
+    background-color: #e84118;
+    border-color: #e84118;
+}
+
+.card img {
+    transition: transform 0.5s;
+}
+
+.card:hover img {
+    transform: scale(1.1);
+}
+
+.accordion-button:not(.collapsed) {
+    background-color: #ff4757;
+    color: white;
+}
+
+.cursor-pointer {
+    cursor: pointer;
+}
+
+section {
+    scroll-margin-top: 70px;
+}
